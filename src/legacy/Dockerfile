@@ -2,7 +2,7 @@
 # This Docker container does not support GPU the purpose
 # is to allow people to quickly play with the model and code
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 
 # Install libraries necessary for python and Tensorflow
 RUN apt-get update && apt-get install -y \
